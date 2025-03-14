@@ -27,6 +27,7 @@ contourpy, cycler, fonttools, kiwisolver, packaging, pillow, pyparsing, python-d
 
 
   Project Structure:
+  ```
 orbital-simulation/
 ├── data/
 │   └── MolniyaSATCAT.txt  # Sample TLE data file
@@ -41,7 +42,7 @@ orbital-simulation/
 │   └── tle_animation.py   # Standalone TLE animation script
 ├── requirements.txt       # Required Python packages
 └── README.md              # Project documentation
-
+```
 ### Executing program
 Run the TLE example script to visualize satellite orbits from a TLE file:
    pip install -r requirements.txt
@@ -132,6 +133,6 @@ Inspiration, code snippets, etc.
      I would not be able to comprehend topics in software engineering without a foundational understanding provided 
      through my course.
 
-* [CelesTrak]([https://www.maynoothuniversity.ie](https://celestrak.org/satcat/search.php))
+* [CelesTrak](https://celestrak.org/satcat/search.php)
      For obtaining the TLE files which this program uses to plot real objects.
   
